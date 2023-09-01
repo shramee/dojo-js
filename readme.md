@@ -1,9 +1,9 @@
 Dojo: Unopinionated
 ===================
 
-Basic Dojo wrapper
+Basic Dojo wrapper.
 
-You can it like so,
+You can use it like so,
 ```ts
 const dojo = Dojo.fromCredentials({
 	accountAddress: '0xf00',
@@ -15,7 +15,7 @@ const dojo = Dojo.fromCredentials({
 dojo.entity("Position", '0xb0b', 0, 2)
 
 // Execute a system
-dojo.execute('move', '0x1);
+dojo.execute('move', '0x1');
 ```
 
 ## Docs
