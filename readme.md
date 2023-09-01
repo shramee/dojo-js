@@ -1,13 +1,24 @@
-Class Dojo
-=============
+Dojo: Unopinionated
+===================
 
-#### Hierarchy
+Basic Dojo wrapper
 
-*   default
+You can it like so,
+```ts
+const dojo = Dojo.fromCredentials({
+	accountAddress: '0xf00',
+	accountPrivateKey: '0xfaa',
+	worldAddress: '0xfab',
+});
 
-*   Defined in [main.ts:11](https://github.com/shramee/dojo-js/blob/343ddc7/lib/main.ts#L11)
+// Get entity
+dojo.entity("Position", '0xb0b', 0, 2)
 
-##### Index
+// Execute a system
+dojo.execute('move', '0x1);
+```
+
+## Docs
 
 ### Constructors
 
